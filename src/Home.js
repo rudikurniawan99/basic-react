@@ -1,6 +1,7 @@
 import './Home.css'
 import Blog from './Blog'
 import { useState } from 'react'
+import Post from './components/Post'
 
 
 const Home = ()=>{
@@ -25,6 +26,7 @@ const Home = ()=>{
         marginTop: '30px',
         marginBottom: '30px'
       }} >My Post</h3>
+      <Post />
     </div>
   )
 }
