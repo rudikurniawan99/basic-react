@@ -1,4 +1,5 @@
 import './Home.css'
+import Blog from './Blog'
 import { useState } from 'react'
 
 
@@ -15,6 +16,11 @@ const Home = ()=>{
       }> {name} </span>
       <br/>
       <button onClick={()=> setName('Bambang Bojonegoro')} >Click Me</button>
+      <h3 style={{ 
+        marginTop: '20px',
+        marginBottom: '20px'
+      }} >My Blog Post</h3>
+      <Blog />
     </div>
   )
 }
