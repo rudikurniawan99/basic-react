@@ -21,6 +21,10 @@ const Home = ()=>{
         marginBottom: '20px'
       }} >My Blog Post</h3>
       <Blog />
+      <h3 style={{ 
+        marginTop: '30px',
+        marginBottom: '30px'
+      }} >My Post</h3>
     </div>
   )
 }
